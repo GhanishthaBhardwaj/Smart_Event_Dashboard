@@ -11,6 +11,7 @@ const clearBtn = document.querySelector('#clear-btn');
 const sampleBtn = document.querySelector('#sample-btn');
 
 const sampleEvents = [
+    
     {
         title: 'Team Meeting',
         date: '2023-10-15',
@@ -105,5 +106,6 @@ sampleBtn.addEventListener('click', function () {
     events = [...events, ...sampleEvents];
     renderEvents();
 });
+
 
 renderEvents();
