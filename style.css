@@ -121,7 +121,7 @@ textarea:focus {
     margin: 5px 0;
 }
 .event-description {
-    font-size: 14px;
+    font-size: 15px;
 }
 .no-events {
     color: #ddd;
@@ -129,10 +129,10 @@ textarea:focus {
 }
 .error {
     color: red;
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 5px;
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .container {
         flex-direction: column;
     }
@@ -140,4 +140,5 @@ textarea:focus {
     .right-card {
         width: 100%;
     }
+
 }
